@@ -2,6 +2,13 @@ import streamlit as st
 import os
 import time
 import base64
+
+from fastapi import FastAPI
+app = FastAPI()
+application = app
+@app.get("/")
+def root():
+    return {"status": "ok"}
 import random
 from datetime import datetime
 from io import BytesIO

@@ -8,3 +8,5 @@ python-dotenv
 ultralytics
 cairocffi
 PyJWT
+fastapi
+uvicorn
