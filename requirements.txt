@@ -1,0 +1,10 @@
+streamlit
+opencv-python-headless
+numpy
+Pillow
+google-genai
+cairosvg
+python-dotenv
+ultralytics
+cairocffi
+PyJWT
